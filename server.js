@@ -21,7 +21,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Setting our Template Engine View to EJS
 app.set('view engine', 'ejs');
-
 // Getting our Root URL
 app.get('/', function (req, res) {
   res.render('index', {weather: null, error: null});
