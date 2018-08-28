@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 // Require Request
 const request = require('request');
 
+const PORT = process.env.PORT || 5000
+
 // require and load dotenv
 require('dotenv').load();
 
@@ -49,6 +51,4 @@ app.post('/', function (req, res) {
   })
 
 // Server Port
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
-})
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
