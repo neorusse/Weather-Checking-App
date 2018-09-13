@@ -47,6 +47,6 @@ This project is open to contribution and improvement. You are free for fork it a
 
 This [Weather Checking App](https://ecoden-weather-app.herokuapp.com/) Project is released under [GNU General Public License v3.0](https://github.com/neorusse/Pixel-Art-Maker-Project/blob/master/LICENSE).
 
-## Acknowledgemant
+## Acknowledgement
 
 I am gratefull to [Google](https://www.google.com/) for providing me a scholarship to study Web Development.
